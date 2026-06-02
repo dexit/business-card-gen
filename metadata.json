@@ -1,0 +1,6 @@
+{
+  "name": "High-Res Business Card Builder",
+  "description": "Interactive business card design studio with drag & drop editing, print templates, bleed/safe guides, crop marks, CMYK simulation, and vector-grade PDF export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Print Media Rules */
+  @media print {
+    body {
+      background-color: #ffffff;
+      color: #000000;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    /* Hide everything that is NOT the print wrapper container */
+    .no-print {
+      display: none !important;
+    }
+
+    .print-only {
+      display: block !important;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
